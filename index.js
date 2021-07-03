@@ -29,3 +29,23 @@ function ex4(){
    let result = x - 12
    return result
 }
+
+/* EXERCISE 5
+Create two variables: name1 and name2. name1 is equal to john, name2 is equal to John.
+Verify that name1 is different from name2. 
+Verify then, that name1 and name2 are equals if both lowercase (without changing the value of name2).
+Eventually, return both result1 and result2
+Then, UNCOMMENT the commented out lines.
+*/
+
+let name1 = "John"
+let name2 = "john"
+
+let areTheyEqual = name1 !== name2
+console.log(areTheyEqual)
+
+name1.toLowerCase()
+name2.toLowerCase()
+
+let areTheyEqualNow = name1 == name2
+console.log("are they equal now" + ":" + areTheyEqualNow)
