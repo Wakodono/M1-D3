@@ -55,13 +55,15 @@ switch(x){
     default: console.log("The number must be between 1 and 9")
 }
 
+console.log(x)
+
 /* EXERCISE 7
 Return the largest between two numbers a and b using a ternary operator.*/
 
 let a = 15
 let b = 99
-let isaBigger = a >= b
-let isbBigger = b >= a
+let isaBigger = a > b
+let isbBigger = b > a
 
 /* Expanded alternative
 if (isaBigger) {
@@ -72,3 +74,5 @@ if (isaBigger) {
 
 // More condensed alternative: this line is exactly the same as the commented out IF-ELSE block above
 largestNumber = isaBigger ? console.log(a) : console.log(b)
+
+console.log(largestNumber)
